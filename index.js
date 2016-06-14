@@ -2,7 +2,8 @@
 module.exports = function(sails) {
     
     var shared = require('./lib/shared.js');
-  //  var config = require('./lib/config.js');
+    var config = require('./lib/config.js');
+    var install = require('./lib/install.js');
 
 
     gladys.on('ready', function(){
@@ -13,6 +14,8 @@ module.exports = function(sails) {
     });
 
     return {
-   //   config: config
+	install: install,
+     // config: config,
+     // shared: shared
     };
 };
