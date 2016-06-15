@@ -2,7 +2,7 @@
 module.exports = function(sails) {
     
     var shared = require('./lib/shared.js');
-    var config = require('./lib/config.js');
+    var setup = require('./lib/setup.js');
     var install = require('./lib/install.js');
 
 
@@ -15,7 +15,7 @@ module.exports = function(sails) {
 
     return {
 	install: install,
-     // config: config,
+     	setup: setup,
      // shared: shared
     };
 };
