@@ -4,6 +4,7 @@ module.exports = function(sails) {
     var shared = require('./lib/shared.js');
     var setup = require('./lib/setup.js');
     var install = require('./lib/install.js');
+    var exec = require('./lib/exec.js');
 
 
     gladys.on('ready', function(){
@@ -16,6 +17,6 @@ module.exports = function(sails) {
     return {
 	install: install,
      	setup: setup,
-     // shared: shared
+        exec: exec
     };
 };
