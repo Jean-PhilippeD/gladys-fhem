@@ -34,4 +34,4 @@ To install this module :
 
 ## Dev
 
-This module has been tested only with EnOcean Devices, it may be different for Z-Wave, if you need compatibility, feel free to push me your request (with z-wave identifier from FHEM).
+This module has been tested only with EnOcean Devices, it may be different for Z-Wave, if you need compatibility, feel free to push me your request (with z-wave identifier from FHEM or any other protocol).
