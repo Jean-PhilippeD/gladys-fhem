@@ -8,7 +8,7 @@ Need Gladys version >= 3.0.0.
 
 ### FHEM side
 
-In order Gladys detect your devices, your devices need to contains specifi keyword by type:
+In order Gladys detect your devices, your devices need to contains specific keyword by type:
 - for Temperature sensor: temperature
 - for Motion sensor: motion
 - for Humidity sensor: humidity
@@ -18,10 +18,10 @@ In order Gladys detect your devices, your devices need to contains specifi keywo
 - for Door contact sensor: contact
 
 If your device does multiple sensor, just add each sensor type in your name.
-For example, a devic which does brightness and motion sensor should/could be names as follow:
-yourDeviceId_brightness_motion
+For example, a device which does brightness and motion sensor should/could be named as follow:
+- yourDeviceId_brightness_motion
 
-Be sure to ger unique naming cause this will be the unique id for Gladys (but probably for FHEM also).
+Be sure to get unique naming cause this will be the unique id for Gladys (but probably for FHEM also).
 
 ### Gladys side
 
