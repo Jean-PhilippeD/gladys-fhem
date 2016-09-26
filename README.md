@@ -8,7 +8,7 @@ Need Gladys version >= 3.0.0.
 
 ### FHEM side
 
-In order Gladys detect your devices, your devices need to contains specific keyword by type:
+In order Gladys detect your devices, your declared devices  in FHEM need to contains specific keyword by type:
 - for Temperature sensor: temperature
 - for Motion sensor: motion
 - for Humidity sensor: humidity
