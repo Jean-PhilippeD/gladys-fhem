@@ -22,8 +22,8 @@ In order Gladys detect your devices, you have to delcare your devices with speci
 
 If your device does multiple sensor, just add each sensor type in your name.
 
-- __For example__, a device which does both brightness and motion sensor you need to name it as:
--- **yourDeviceId_brightness_motion**
+__For example__, a device which does both brightness and motion sensor you need to name it as:
+- **yourDeviceId_brightness_motion**
 
 Be sure to get unique naming of course.
 
