@@ -36,9 +36,9 @@ To install this module :
 - Reboot Gladys.
 - Then, launch Configuration on FHEM Module, your devices should have been automaticaly detected. 
 
-Once installed, you can run exec command or build launcher based on value received.
+Once installed, you can run exec command or build launcher based on received values.
 Value are mapped from FHEM to Gladys like this:
-- on == 1
+- on = 1
 - off = 0
 - closed = 0
 - open = 1
