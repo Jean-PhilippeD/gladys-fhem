@@ -36,6 +36,18 @@ To install this module :
 - Reboot Gladys.
 - Then, launch Configuration on FHEM Module, your devices should have been automaticaly detected. 
 
+Once installed, you can run exec command or build launcher based on value received.
+Value are mapped from FHEM to Gladys like this:
+- on == 1
+- off = 0
+- closed = 0
+- open = 1
+- A0 = 1
+- AI = 2
+- B0 = 3
+- BI = 4
+
+
 ## Dev
 
 This module has been tested only with EnOcean Devices, it could be different for Z-Wave, if you need compatibility, feel free to push me your request (with z-wave identifier from FHEM or any other protocol).
